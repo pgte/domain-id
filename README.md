@@ -1,4 +1,4 @@
-# domain-id
+# domain-id [![Build Status](https://secure.travis-ci.org/pgte/domain-id.png)](http://travis-ci.org/pgte/domain-id)
 
 Assigns an ID to a domain.
 
