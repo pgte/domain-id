@@ -1,0 +1,26 @@
+{
+  "name": "domain-id",
+  "version": "0.0.1",
+  "description": "Assigns an id to a domain",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/id.js"
+  },
+  "dependencies": {
+    "node-uuid": "*"
+  },
+  "devDependencies": {
+    "tap": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pgte/domain-id.git"
+  },
+  "keywords": [
+    "domains",
+    "id",
+    "uuid"
+  ],
+  "author": "pgte",
+  "license": "MIT"
+}
