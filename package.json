@@ -4,7 +4,7 @@
   "description": "Assigns an id to a domain",
   "main": "index.js",
   "scripts": {
-    "test": "node test/id.js"
+    "test": "node tests/id.js"
   },
   "dependencies": {
     "node-uuid": "*"
