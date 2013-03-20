@@ -22,7 +22,10 @@ function requestPatched() {
   return req;
 };
 
-var oldHttpClientRequest = http.ClientRequest;
+var oldHttpClientRequest =
+exports.oldHttpClientRequest =
+http.ClientRequest;
+
 var HttpClientRequest =
 http.ClientRequest =
 function ClientRequestPatched() {
