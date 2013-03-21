@@ -33,3 +33,5 @@ function ClientRequestPatched() {
   addRequest(this);
   return ret;
 };
+
+require('util').inherits(HttpClientRequest, oldHttpClientRequest);
