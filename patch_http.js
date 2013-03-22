@@ -4,6 +4,7 @@ var domain = require('domain');
 var http = require('http');
 var uuid = require('node-uuid').v4;
 
+
 function addRequest(req) {
   var d;
   var id;
@@ -23,7 +24,6 @@ function requestPatched() {
 };
 
 var oldHttpClientRequest =
-exports.oldHttpClientRequest =
 http.ClientRequest;
 
 var HttpClientRequest =
@@ -35,3 +35,5 @@ function ClientRequestPatched() {
 };
 
 require('util').inherits(HttpClientRequest, oldHttpClientRequest);
+
+HttpClientRequest.__baseClass = oldHttpClientRequest;
