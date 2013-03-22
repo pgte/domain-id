@@ -36,4 +36,5 @@ function ClientRequestPatched() {
 
 require('util').inherits(HttpClientRequest, oldHttpClientRequest);
 
-HttpClientRequest.__baseClass = oldHttpClientRequest;
+HttpClientRequest.__baseClass =
+oldHttpClientRequest.__baseClass || oldHttpClientRequest;
