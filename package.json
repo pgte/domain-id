@@ -1,6 +1,6 @@
 {
   "name": "domain-id",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Assigns an id to a domain",
   "main": "index.js",
   "scripts": {
